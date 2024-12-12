@@ -1,0 +1,50 @@
+/* Navbar styling */
+.navbar {
+  background-color: #000000 !important; /* Black background */
+  color: #333333; /* Dark text color for better visibility */
+  border: none; /* Remove any borders for a solid look */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  color: #333333 !important ; /* Dark text color for the brand name */
+  font-weight: bold; /* Bold for emphasis */
+}
+
+/* Link styling */
+.navbar-link {
+  color: #333333 !important; /* Dark text color for links */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effects */
+}
+
+/* Hover effect for links */
+.navbar-link:hover {
+  color: #00b4d8 !important; /* Lighter blue on hover */
+  transform: scale(1.1); /* Slightly enlarge link on hover */
+}
+
+/* Dropdown styling */
+.nav-dropdown-link {
+  color: #333333; /* Dark text color for dropdown links */
+}
+
+.nav-dropdown-link:hover {
+  color: #00b4d8; /* Lighter blue on hover for dropdown items */
+}
+
+/* Icon styling */
+.icon {
+  color: #333333; /* Dark color for the cart icon */
+  margin-right: 50px; /* Spacing before the icon */
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #00b4d8 !important; /* Change color to lighter blue on hover */
+}
+
+/* Additional styling for the navbar */
+.navbar-collapse {
+  justify-content: space-between; /* Ensure space between nav items */
+}

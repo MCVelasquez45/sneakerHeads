@@ -1,0 +1,62 @@
+/* Reset default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* SignIn container styling with background image adjustments */
+.SignInContainer {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5; /* Optional fallback color */
+}
+
+/* Center the logo image in a round container */
+.SneakerHead {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sneaker-image {
+  width: 12em; /* Adjusted size as requested */
+  height: 12em;
+  border-radius: 50%; /* Circular logo */
+  margin-bottom: 10px;
+}
+
+/* Form container styling */
+.SignInContainer > div {
+  background-color: #fff; /* White background for form */
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Limit form width */
+  text-align: center;
+}
+
+/* Link styling */
+.SignInContainer a {
+  color: #3498db; /* Light blue for links */
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 15px;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.SignInContainer a:hover {
+  color: #2ecc71; /* Green on hover */
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .SignInContainer {
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,32 @@
+/* Footer styles */
+.footer {
+    background-color: #000000 !important; /* Light gray background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+    .container {
+        max-width: 100%;
+    }
+}

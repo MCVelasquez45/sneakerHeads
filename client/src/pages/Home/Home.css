@@ -1,0 +1,96 @@
+/* Global styles */
+body {
+    background-color: #000000 !important; /* Light gray background */
+    color: #333333; /* Dark gray text for readability */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styling */
+  .Navbar {
+    /* background-color: #333333fa; Dark gray background */
+    color: #ffffff; /* White text */
+    padding: 15px 0;
+  }
+  
+  .Navbar a {
+    color: #f1faee; /* Light yellow text */
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s;
+  }
+  
+  .Navbar a:hover {
+    color: #080ceb; /* Red on hover */
+  }
+  
+  /* Jumbotron styling */
+  .Jumbotron {
+    background-color: #457b9d; /* Soft blue background */
+    color: #ffffff; /* White text */
+    padding: 60px 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .Jumbotron h1 {
+    color: #f1faee; /* Light yellow for a subtle contrast */
+  }
+  
+  .Jumbotron p {
+    color: #f0f0f0;
+  }
+  
+  /* Sneaker Images Section */
+  .sneaker-images-container {
+    margin-top: 20px;
+  }
+  
+  .image-row {
+    gap: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .sneaker-image1 {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f1faee; /* Light yellow border around images */
+    margin: 2em;
+  }
+  
+  /* Footer styling */
+  .Footer {
+    background-color: #000000 !important; /* Light gray background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .Footer a {
+    color: #e63946; /* Red for contrast */
+    text-decoration: none;
+  }
+  
+  .Footer a:hover {
+    color: #f1faee; /* Light yellow on hover */
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #e63946; /* Vibrant red button */
+    color: #ffffff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #457b9d; /* Soft blue hover */
+  }
+  

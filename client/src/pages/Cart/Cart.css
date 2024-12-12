@@ -1,0 +1,89 @@
+/* Cart container styling */
+.cart {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Heading for the cart */
+  .cart h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Container for cart items */
+  .cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between cart items */
+    margin-bottom: 30px;
+  }
+  
+  /* Checkout section styling */
+  .checkout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .checkout p {
+    font-size: 1.3rem;
+    color: #444;
+  }
+  
+  .checkout button {
+    padding: 10px 20px;
+    background-color: #007BFF; /* Primary color for buttons */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .checkout button:first-child {
+    background-color: #6c757d; /* Gray for 'Continue Shopping' */
+  }
+  
+  .checkout button:first-child:hover {
+    background-color: #5a6268;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .cart {
+      width: 95%;
+      padding: 15px;
+    }
+  
+    .checkout {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 15px;
+    }
+  
+    .checkout button {
+      width: 100%;
+      
+    }
+  
+    .checkout p {
+      font-size: 1.2rem;
+    }
+  }
+  
