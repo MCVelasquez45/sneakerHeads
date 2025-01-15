@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "productName": "jordan",
+      "price": 300.0,
+      "productImage": "images/jordan.png"
+    },
+    {
+      "id": 2,
+      "productName": "jordan1",
+      "price": 300.0,
+      "productImage": "images/jordan1.png"
+    },
+    {
+      "id": 3,
+      "productName": "jordan1Red",
+      "price": 300.0,
+      "productImage": "images/jordan1red.png"
+    },
+    {
+      "id": 4,
+      "productName": "jordan4",
+      "price": 300.0,
+      "productImage": "images/jordan4.png"
+    },
+    {
+      "id": 5,
+      "productName": "jordan4Black",
+      "price": 300.0,
+      "productImage": "images/jordan4Black.png"
+    },
+    {
+      "id": 6,
+      "productName": "jordan4BlackNGrey",
+      "price": 300.0,
+      "productImage": "images/jordan4BlackNGrey.png"
+    }
+  ]

@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const dbUrl = 'mongodb://localhost/sneakerHeads';  // Added 'mongodb://' to the URL
+const dbUrl = 'mongodb://127.0.0.1:27017/sneakerHeads';
 
 mongoose.connect(dbUrl, {
   useNewUrlParser: true,

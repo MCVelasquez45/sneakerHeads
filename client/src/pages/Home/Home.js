@@ -1,6 +1,7 @@
 import React from "react";
 import './Home.css';
 import Navbar from "../../components/Navbar";
+
 // import SIgnedIn from "../../components/SIgnedIn";
 import Jumbotron from "../../components/Jumbotron";
 import jordan4BlackNGrey from '../../images/jordan4BlackNGrey.png';
@@ -38,6 +39,7 @@ const Home = () => {
                     ))}
                 </div>
             </div>
+      
             <Footer />
         </div>
     )
